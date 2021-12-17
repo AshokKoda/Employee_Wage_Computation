@@ -1,14 +1,14 @@
 package employeewage;
 
 public class EmployeeWageComputation {
-
-	public static void main(String[] args) {
-		System.out.println("------Welcome To Employee Wage Computation------");
+	
+	public static int fulltime = 1;
+	
+	/*
+	 * UC1: Employee Present or Absent
+	 */
+	public static void employeeAttendence() {
 		
-		/*
-		 * UC1: Employee Present or Absent
-		 */
-		int fulltime = 1;
 		double random = Math.floor(Math.random() * 10) % 2;
 		
 		if(random == fulltime) 
@@ -17,7 +17,12 @@ public class EmployeeWageComputation {
 		}else {
 			System.out.println("Employee is Absent");
 		}
+	}
 
+	public static void main(String[] args) {
+		System.out.println("------Welcome To Employee Wage Computation------");
+		
+		employeeAttendence();
 	}
 
 }
