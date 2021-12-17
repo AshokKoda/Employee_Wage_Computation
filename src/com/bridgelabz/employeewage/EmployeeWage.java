@@ -1,4 +1,4 @@
-package employeewage;
+package com.bridgelabz.employeewage;
 
 /*
  * Calculate Wages till a condition of total

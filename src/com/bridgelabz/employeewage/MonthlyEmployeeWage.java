@@ -1,4 +1,4 @@
-package employeewage;
+package com.bridgelabz.employeewage;
 
 /*
  * Monthly Employee Wage
